@@ -77,7 +77,6 @@ h1 {
 }
 
 /*  slider  */
-
 div.scrollmenu {
     background-color: #fffdfa;
     overflow: auto;
@@ -202,9 +201,12 @@ div.scrollmenu img:hover {
 	.review .review-item {
 		width: 100%;
 		margin: 15px 0;
-		
 	}
 }	
 
-
-
+@media screen and (max-width:380px){
+	.slide {
+		width: 350px;
+		height: 225px;
+	}
+}
